@@ -22,7 +22,7 @@ console.ignoredYellowBox = [
 const scenes = Actions.create(
   <Scene key="root" hideNavBar={true}>
     <Scene key="main" title="Main" component={MainView} initial={true} />
-    <Scene key="settings" direction="vertical" title="Stocks" component={SettingsView} />
+    <Scene key="settings" direction="vertical" title="Shares" component={SettingsView} />
     <Scene key="add" direction="vertical" title="Add" component={AddView} />
   </Scene>
 );
